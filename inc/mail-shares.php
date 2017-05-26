@@ -13,7 +13,7 @@ function sharecount_mail()
 
     // Bump up mail share counter
     $shares = get_post_meta($post_id, 'sharecount_mail', true);
-    $shares = $shares + 1;
+    $shares++;
 
     // Update mail share counter
     update_post_meta($post_id, 'sharecount_mail',  $shares);
