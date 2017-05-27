@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: ShareCount
- * Plugin URI: https://heipomedia.de
+ * Plugin URI: https://www.heipomedia.de
  * Description: A simple plugin for displaying sharing buttons with their share numbers (Facebook, Twitter, Mail)
  * Version: 1.0.0
  * Author: Marc Heiduk
- * Author URI: https://heipomedia.de
+ * Author URI: https://www.heipomedia.de
  * License: MIT
  */
 
