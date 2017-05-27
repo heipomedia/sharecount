@@ -32,6 +32,6 @@ add_shortcode('sharecount_mail', 'bbcode_mail');
 
 // BBCode display buttons
 function bbcode_buttons() {
-	sharecount_display();
+	return sharecount_display();
 }
 add_shortcode('sharecount_buttons', 'bbcode_buttons');
