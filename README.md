@@ -8,11 +8,13 @@ ShareCount is a WordPress Plugin to display sharing activity of an article. It s
 
 You can add ShareCount stats easy by BBCode. The following BBCode displays the sharing buttons.
 
-```[sharecount_buttons]
+```
+[sharecount_buttons]
 ```
 
 The stats of an article to a specific service you can show with this codes.
-```[sharecount_twitter]
+```
+[sharecount_twitter]
 [sharecount_facebook]
 [sharecount_mail]
 ```
