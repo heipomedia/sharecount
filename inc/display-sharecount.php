@@ -18,15 +18,18 @@ function sharecount_display()
         <div class="sharing-buttons-post-id" data-postid="'.get_the_ID().'"></div>
         <div class="sharing-buttons">
             <a href="https://www.facebook.com/sharer.php?u='.get_permalink().'" target="_blank" class="sharing-button sharing-button--facebook">
-                <span class="sharing-button__text"><i class="icon-facebook"></i> SHARE</span>
+				<i class="icon-facebook" aria-hidden="true"></i>
+                <span class="sharing-button__text">SHARE</span>
                 <span class="sharing-button__count sharecount_fb">0</span>
             </a>
             <a href="https://twitter.com/intent/tweet?url='.get_permalink().'" target="_blank" class="sharing-button sharing-button--twitter">
-                <span class="sharing-button__text"><i class="icon-twitter"></i> TWEET</span>
+				<i class="icon-twitter" aria-hidden="true"></i>
+                <span class="sharing-button__text">TWEET</span>
                 <span class="sharing-button__count sharecount_tw">0</span>
             </a>
             <a href="mailto:?subject=Artikel-Empfehlung&body=Hallo%2C%0A%0Adieser%20Artikel%20könnte%20dir%20gefallen%3A%20'.get_permalink().'%0A%0Alg" class="sharing-button sharing-button--mail">
-                <span class="sharing-button__text"><i class="icon-mail"></i> MAIL</span>
+				<i class="icon-mail" aria-hidden="true"></i>
+                <span class="sharing-button__text">MAIL</span>
                 <span class="sharing-button__count sharecount_mail">'.$shares_mail.'</span>
             </a>
         </div>
