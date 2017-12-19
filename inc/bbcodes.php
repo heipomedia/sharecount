@@ -33,9 +33,9 @@ add_shortcode('sharecount_mail', 'sharecount_bbcode_mail');
 // BBCode Mail
 function sharecount_bbcode_allshares() {
     global $post;
-	$shares_facebook = get_post_meta($post->ID, 'sharecount_facebook', true);
-	$shares_twitter = get_post_meta($post->ID, 'sharecount_twitter', true);
-	$shares_mail = get_post_meta($post->ID, 'sharecount_mail', true);
+	$shares_facebook = (int) get_post_meta($post->ID, 'sharecount_facebook', true);
+	$shares_twitter = (int) get_post_meta($post->ID, 'sharecount_twitter', true);
+	$shares_mail = (int) get_post_meta($post->ID, 'sharecount_mail', true);
 
 	$shares = $shares_facebook + $shares_twitter + $shares_mail;
 
