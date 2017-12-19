@@ -17,6 +17,7 @@ The stats of an article to a specific service you can show with this codes.
 [sharecount_twitter]
 [sharecount_facebook]
 [sharecount_mail]
+[sharecount_allshares]
 ```
 
 ## Contributing
