@@ -1,80 +1,32 @@
 /**
- * ShareCount CSS
- * @type css
- */
-
+ ** ShareCount SCSS
+ **/
 .sharing-buttons {
-    margin: 6px 0;
-}
-
-a.sharing-button {
-    display: inline-block;
-    font-size: .7rem;
+  display: flex;
+  flex-direction: row;
+  margin: 6px 0; }
+  .sharing-buttons .sharing-button {
+    display: flex;
+    flex-direction: row;
+    font-size: .9rem;
     line-height: 1rem;
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
-}
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 1rem; }
+    .sharing-buttons .sharing-button span {
+      display: inline-block; }
+      .sharing-buttons .sharing-button span.sharing-button__text {
+        width: 70%; }
+      .sharing-buttons .sharing-button span.sharing-button__count {
+        text-align: right;
+        width: 30%; }
+    .sharing-buttons .sharing-button.sharing-button--facebook {
+      background: #3b5998; }
+    .sharing-buttons .sharing-button.sharing-button--twitter {
+      background: #1da1f2; }
+    .sharing-buttons .sharing-button.sharing-button--mail {
+      background: #818181; }
 
-a:hover.sharing-button,
-a:focus.sharing-button {
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    color: #fff;
-}
-
-a.sharing-button span{
-	float: left;
-	padding: 5px 3px;
-	border-color: #e2e2e2;
-	border-style: solid;
-}
-a.sharing-button .sharing-button__text {
-	width: 5rem;
-	display: block;
-	border-width: 1px 0 1px 1px;
-	opacity: .85;
-}
-
-a.sharing-button .sharing-button__text:hover {
-	opacity: 1;
-}
-
-a.sharing-button .sharing-button__text:active {
-	opacity: .95;
-}
-
-a.sharing-button .sharing-button__count {
-	width: auto;
-	display: block;
-	background-color: #fff;
-	color: #000;
-	border-width: 1px 1px 1px 0;
-	position: relative;
-	min-width: 1.7rem;
-}
-
-a.sharing-button .sharing-button__count:after{
-	border: solid transparent;
-	content: '';
-	height: 0;
-	width: 0;
-	position: absolute;
-	border-color: transparent;
-	border-right-color: white;
-	border-width: 5px;
-	left: -8px;
-	top: 8px;
-}
-
-.sharing-button--facebook {
-    background: #3b5998;
-}
-
-.sharing-button--twitter {
-    background: #1da1f2;
-}
-
-.sharing-button--mail {
-    background: #818181;
-}
+/*# sourceMappingURL=sharecount.css.map */

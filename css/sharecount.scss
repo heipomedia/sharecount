@@ -1,0 +1,48 @@
+/**
+ ** ShareCount SCSS
+ **/
+
+.sharing-buttons {
+	display: flex;
+	flex-direction: row;
+	margin: 6px 0;
+
+	.sharing-button {
+		display: flex;
+		flex-direction: row;
+	    font-size: .9rem;
+	    line-height: 1rem;
+		color: #ffffff;
+		text-decoration: none;
+		text-align: center;
+		width: 100%;
+		padding: 1rem;
+
+		span {
+			display: inline-block;
+
+			&.sharing-button__text {
+				width: 70%;
+			}
+
+			&.sharing-button__count {
+				text-align: right;
+				width: 30%;
+			}
+		}
+
+		&.sharing-button--facebook {
+		    background: #3b5998;
+		}
+
+		&.sharing-button--twitter {
+		    background: #1da1f2;
+		}
+
+		&.sharing-button--mail {
+		    background: #818181;
+		}
+	}
+
+
+}
